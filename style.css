@@ -116,12 +116,33 @@ h2 {
 
 #Contact {
   margin: 0;
-  margin-top: 20vh;
+  margin-top: 50vh;
 }
 
 #Contact h2 {
   text-align: center;
 }
 
+#contact-cards {
+  margin-top: 5vh;
+  margin-bottom: 45vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .contact-card {
+  width: 150px;
+  height: 150px;
+  background-color: var(--navbar-color);
+  color: white;
+  text-align: center;
+}
+
+.contact-card i {
+  font-size: 4rem;
+  padding-top: 15%;
+}
+
+a:hover {
+  cursor: pointer;
 }
