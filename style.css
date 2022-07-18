@@ -91,6 +91,19 @@ h2 {
   justify-content: center;
 }
 
+@media only screen and (max-width: 1500px) {
+  #projects {
+    grid-template-columns: 20vw 20vw;
+    column-gap: 8vw;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #projects {
+    grid-template-columns: 20vw;
+  }
+}
+
 .project-tile {
   width: 350px;
   height: 400px;
