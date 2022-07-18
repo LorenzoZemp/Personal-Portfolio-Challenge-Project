@@ -18,7 +18,7 @@ body {
   background-color: var(--background-color);
 }
 
-nav {
+#navbar {
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -81,7 +81,6 @@ h2 {
 }
 
 #projects {
-  width: 100%;
   margin: 0;
   margin-top: 5vh;
   display: grid;
