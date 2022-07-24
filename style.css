@@ -49,8 +49,8 @@ li a {
 #welcome-section {
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -61,6 +61,12 @@ h1 {
 h2 {
   margin: 0;
   font-weight: normal;
+}
+
+@media screen and (max-width: 500px) {
+  #welcome-section {
+    flex-direction: column;
+  }
 }
 
 .blink {
